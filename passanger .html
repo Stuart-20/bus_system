@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1" />
+
+<title>Passenger Form</title>
+
+<style type="text/css">
+
+.style1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #0000FF;
+}
+
+body {
+	background-color: #66FFFF;
+}
+
+</style>
+<h3>Links</h3>
+<a href="bus.html">Bus</a> <br>
+<a href="payment .html">Payment</a> <br>
+<a href="booking.html">Booking</a> <br>
+
+</head>
+
+<body>
+
+<table width="836" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+
+<td width="49"></td>
+
+<td width="177"></td>
+
+<td width="45"></td>
+
+<td width="565" valign="top">
+
+<span class="style1">
+Passenger Information
+</span>
+
+<br /><br />
+
+<form method="post" action="save_passenger.php">
+
+First Name:
+<input type="text" name="first_name" />
+
+<br /><br />
+
+Last Name:
+<input type="text" name="last_name" />
+
+<br /><br />
+
+Phone Number:
+<input type="text" name="phone_no" />
+
+<br /><br />
+
+Gender:
+
+<input type="radio"
+name="gender"
+value="male" />
+Male
+
+<input type="radio"
+name="gender"
+value="female" />
+Female
+
+<br /><br />
+
+Email:
+<input type="email" name="email" />
+
+<br /><br />
+
+Departure Point:
+<input type="text"
+name="departure_point" />
+
+<br /><br />
+
+Destination:
+<input type="text"
+name="destination" />
+
+<br /><br />
+
+<input type="submit"
+value="Save Passenger" />
+
+<input type="reset"
+value="Reset" />
+
+</form>
+
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>

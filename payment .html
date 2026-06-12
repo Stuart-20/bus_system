@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1" />
+
+<title>Payment Form</title>
+
+<style type="text/css">
+
+.style2 {
+	font-size: 36px;
+	color: #0000FF;
+}
+
+body {
+	background-color: #66FFFF;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<table width="582"
+border="0"
+cellpadding="0"
+cellspacing="0">
+
+<tr>
+
+<td width="10"></td>
+
+<td width="572" valign="top">
+
+<form method="post"
+action="save_payment.php">
+
+<span class="style2">
+Payment
+</span>
+
+<br /><br />
+
+Amount:
+<input type="text" name="amount" />
+
+<br /><br />
+
+Payment Date:
+<input type="date" name="payment_date" />
+
+<br /><br />
+
+Receipt Number:
+<input type="text"
+name="receipt_number" />
+
+<br /><br />
+
+Payment Method:
+
+<br />
+
+<input type="radio"
+name="payment_method"
+value="cash" />
+Cash
+
+<br />
+
+<input type="radio"
+name="payment_method"
+value="mobile_money" />
+Mobile Money
+
+<br />
+
+<input type="radio"
+name="payment_method"
+value="bank" />
+Bank
+
+<br />
+
+<input type="radio"
+name="payment_method"
+value="visa" />
+Visa
+
+<br /><br />
+
+Passenger ID:
+<input type="text"
+name="passenger_id" />
+
+<br /><br />
+
+<input type="submit"
+value="Save Payment" />
+
+<input type="reset"
+value="Reset" />
+
+</form>
+
+</td>
+
+</tr>
+
+</table>
+<br>
+<a href="passanger .html"><button>Passenger</button></a>
+
+</body>
+</html>
